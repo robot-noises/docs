@@ -7,6 +7,10 @@
     ```arduino
 	#ifndef USE_SOLAX_X1
 	#define USE_SOLAX_X1
+	
+	//also remember to include energy sensors:
+	#define USE_ENERGY_SENSOR
+	
 	// Change serial speed from the default value of 9600:
 	  #define SOLAXX1_SPEED        9600              // Solax X1 Modbus RS485 serial speed (default: 9600 baud)
 	// If your inverter has two PV-inputs, you can activate the 2nd one:
